@@ -30,32 +30,27 @@
                 <input type="text" 
                     id="{{form_user.username.id_for_label}}" name="{{form_user.username.html_name}}" 
                     placeholder="Digite seu usuário" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_user.email.id_for_label}}">{{form_user.email.label}}</label>
                 <input type="email" 
                     id="{{form_user.email.id_for_label}}" name="{{form_user.email.html_name}}" 
                     placeholder="Digite seu email" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+  
             </div>
             <div class="form-control">
                 <label for="{{form_user.password1.id_for_label}}">{{form_user.password1.label}}</label>
                 <input type="password" 
                     id="{{form_user.password1.id_for_label}}" name="{{form_user.password1.html_name}}"
                     placeholder="Digite sua senha" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_user.password2.id_for_label}}">{{form_user.password2.label}}</label>
                 <input type="password" 
                     id="{{form_user.password2.id_for_label}}" name="{{form_user.password2.html_name}}" 
                     placeholder="Digite sua senha novamente" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
             {{form_user.errors}}
@@ -65,8 +60,7 @@
                 <input type="text" 
                     id="{{form_customer.name.id_for_label}}" name="{{form_customer.name.html_name}}"
                     placeholder="Digite seu nome completo" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_customer.cpf.id_for_label}}">{{form_customer.cpf.label}}</label>
@@ -74,14 +68,11 @@
                     type="text" id="{{form_customer.cpf.id_for_label}}" name="{{form_customer.cpf.html_name}}"
                     maxlength="11" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" placeholder="Digite seu CPF" required>
                 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             <div class="form-control ">
                 <label for="{{form_customer.birth_date.id_for_label}}">{{form_customer.birth_date.label}}</label>
                 <input type="date" id="{{form_customer.birth_date.id_for_label}}" name="{{form_customer.birth_date.html_name}}" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_customer.gender.id_for_label}}">{{form_customer.gender.label}}</label>
@@ -92,8 +83,6 @@
                     {% endfor %}
                 </select>
 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             
             <div class="form-control">
@@ -102,16 +91,13 @@
                     id="{{form_customer.postal_code.id_for_label}}" name="{{form_customer.postal_code.html_name}}"
                     maxlength="8" placeholder="Digite seu CEP" required>
 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             <div class="form-control">
                 <label for="{{form_customer.address.id_for_label}}">{{form_customer.address.label}}</label>
                 <input type="text" 
                     id="{{form_customer.address.id_for_label}}" name="{{form_customer.address.html_name}}"
                     placeholder="Digite o nome da sua rua" required>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_customer.address_number.id_for_label}}">{{form_customer.address_number.label}}</label>
@@ -119,16 +105,13 @@
                     id="{{form_customer.address_number.id_for_label}}" name="{{form_customer.address_number.html_name}}"
                     placeholder="Digite o número da sua casa" required>
 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             <div class="form-control">
                 <label for="{{form_customer.complement.id_for_label}}">{{form_customer.complement.label}}</label>
                 <input type="text" 
                     id="{{form_customer.complement.id_for_label}}" name="{{form_customer.complement.html_name}}"
                     placeholder="Digite o complemento do seu endereço">
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_customer.state.id_for_label}}">{{form_customer.state.label}}</label>
@@ -144,17 +127,14 @@
                     id="{{form_customer.city.id_for_label}}" name="{{form_customer.city.html_name}}"
                     placeholder="Digite o nome da sua Cidade" required>
 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+
             </div>
             <div class="form-control">
                 <label for="{{form_customer.neighborhood.id_for_label}}">{{form_customer.neighborhood.label}}</label>
                 <input type="text" 
                     id="{{form_customer.neighborhood.id_for_label}}" name="{{form_customer.neighborhood.html_name}}"
                     placeholder="Digite o nome do seu bairro" required>
-
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
+         
             </div>
             <div class="form-control">
                 <label for="{{form_customer.tel1.id_for_label}}">{{form_customer.tel1.label}}</label>
@@ -162,8 +142,6 @@
                     id="{{form_customer.tel1.id_for_label}}" name="{{form_customer.tel1.html_name}}"
                     placeholder="Informe seu telefone" required>
 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             <div class="form-control">
                 <label for="{{form_customer.tel2.id_for_label}}">{{form_customer.tel2.label}}</label>
@@ -171,8 +149,6 @@
                     id="{{form_customer.tel2.id_for_label}}" name="{{form_customer.tel2.html_name}}"
                     placeholder="Informe um segundo telefone">
                 
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
             </div>
             {{form_customer.errors}}
 
